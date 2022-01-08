@@ -159,6 +159,12 @@ MonoBehaviour:
   hsaWindow: 0
   ColorA: {r: 0.63372195, g: 0.9528302, b: 0.9528302, a: 0}
   rde: {r: 0.8113208, g: 0.54725885, b: 0.54725885, a: 1}
+  ColorB: {r: 0, g: 0.5, b: 0.5, a: 0.8}
+  vector2: {x: 0, y: 0}
+  v2Right: {x: 1, y: 0}
+  v2Up: {x: 0, y: 1}
+  v2One: {x: 1, y: 1}
+  vector2A: {x: 3.5, y: 9.5}
 --- !u!212 &1239407217
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -317,6 +323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1442844886}
   - component: {fileID: 1442844885}
+  - component: {fileID: 1442844884}
   m_Layer: 0
   m_Name: Crate
   m_TagString: Untagged
@@ -324,6 +331,30 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1442844884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442844883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c79ef8753f931439f7cd4961aa5771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cc: 1000
+  weight: 3.5
+  brand: "\u8CD3\u58EB"
+  hsaWindow: 1
+  ColorA: {r: 0, g: 0, b: 0, a: 0}
+  rde: {r: 1, g: 0, b: 0, a: 1}
+  ColorB: {r: 0.8, g: 1, b: 0.9, a: 0.8}
+  vector2: {x: 0, y: 0}
+  v2Right: {x: 1, y: 0}
+  v2Up: {x: 0, y: 1}
+  v2One: {x: 1, y: 1}
+  vector2A: {x: 3.5, y: 9.5}
 --- !u!212 &1442844885
 SpriteRenderer:
   m_ObjectHideFlags: 0
